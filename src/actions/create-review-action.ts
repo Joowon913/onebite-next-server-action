@@ -7,7 +7,7 @@ export async function createReviewAction(formData: FormData) {
 
   console.log(bookId, content, author);
 
-  if(!content || author) {
+  if(!content || !author) {
     return;
   }
 
